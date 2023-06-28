@@ -42,10 +42,6 @@ public:
 	bool IsRight =false;
 	bool flipFlop = false;
 
-	
-	
-	
-
 	//func
 	void AddSnakeToMap();
 	void spawnApple();
@@ -53,7 +49,6 @@ public:
 	int32 GetGameMode() const {return GameMode;}
 	UFUNCTION(BlueprintCallable,Category="MyF")
 	int32 GetScore() const {return SnakePlayer->Score;}
-	
 
 protected:
 	// Called when the game starts or when spawned
@@ -73,9 +68,5 @@ public:
 	void SetPressDw();
 	void SetPressLf();
 	void SetPressRg();
-	void Pause();
-	
-
-	
-	
+	void Pause();	
 };
